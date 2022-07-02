@@ -4476,7 +4476,7 @@ class PlayState extends MusicBeatState
 						if (SONG.disableAntiMash) {
 							canMiss = false;
 						} else {			// best code ever
-							canMiss = true;
+							canMiss = false;
 						}
 					}
 				});
